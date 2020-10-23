@@ -236,8 +236,8 @@ function buy()
     {
         candle.style.top = '30%'
     }
-
+    
     var total = document.getElementById('total')
-    total.innerHTML="TOTAL ...................... "+bill
+    total.innerHTML="TOTAL ....................................... "+bill
     }
 }
