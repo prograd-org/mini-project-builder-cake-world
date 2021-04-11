@@ -4,9 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>cake builder</title>
 </head>
+<link rel="stylesheet" href="style.css">
 <body>
+<div class="container">
+ <div id="Header">
+    <div class="subheader">
+       <img src="./assets/cake.png" alt="cake">
+       <label >Cake world</label>
+    </div>
+  </div>
+ <div class="center">
+     <div class="pricelist">
+       <img src="./assets/list_template.png" alt="temp">
+       <h4>PRICES</h4>
+       <label>chocolate-------300</label><br>
+       <label>strawberry--------100</label><br>
+       <label>butterscotch---------200</label><br>
+       <label>vanilla--------250</label><br>
+       <label>Redvelvet---------350</label>
+      </div>
+      <div class="cake">
+        <div class="flavours" id="layer5"></div>
+        <div class="flavours" id="layer4"></div>
+        <div class="flavours" id="layer3"></div>
+        <div class="flavours" id="layer2"></div>
+        <div class="flavours" id="layer1"></div>
+        <img src="./assets/candle.png" id="candle">
+      </div>
+      <div id="billcal">
+        <img src="./assets/list_template.png" class="billboard">
+        <h4 class="flavourprice">BILL</h4>
+        <div class="bill" id="chocolateBill"></div>
+        <div class="bill" id="strawberryBill"></div>
+        <div class="bill" id="butterscotchBill"></div>
+        <div class="bill" id="vannilaBill"></div>
+        <div class="bill" id="redvelvetBill"></div>
+        <div class="bill" id="total">
+      </div>
+    </div>
+ <div class="footer">
+    <input type="button" id="Chocolatebtn" value="Chocolate" onclick="addChocolate()">
+    <input type="button" id="Strawberrybtn" value="Strawberry" onclick="addStrawberry()">
+    <input type="button" id="Butterscotchbtn" value="Butterscotch" onclick="addButterscotch()">
+    <input type="button" id="Vannilabtn" value="Vannila" onclick="addVannila()">
+    <input type="button" id="Redvelvetbtn" value="Redvelvet" onclick="addRedvelvet()">
+    <input type="button" id="buybtn" value="Buy" onclick="buy()">
+ </div>
+</div>
     
 </body>
 <script src="/script.js"></script>
