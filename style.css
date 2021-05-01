@@ -5,7 +5,208 @@
 *{
     margin:0;
     padding:0;
+    background-color: rgb(177, 75, 177);
 }
 
 /* Fill your code*/
+/* styling border for menuitem */
+.border
+{
+    background-size: contain;
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 50px;;
+}
 
+h3
+{
+    display: flex;
+    font-size: 1.17em;
+   align-self: center;
+   align-items: center;
+   justify-content: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+#bill
+{
+    position: absolute;
+    
+}
+/* styling menuitem */
+.menu 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 40%;
+    transform: translate(-40%, -50%);
+}
+
+h4
+{
+    margin:5px
+}
+
+/* styling border for bill */
+.border-2 
+{
+    background-size: contain;
+    position: absolute;
+   
+    margin-left: 80%;
+    margin-top: 15%;
+
+}
+
+/* styling bill font and decorations */
+.bill 
+{
+    
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 11%;
+    left:20%;
+    color: white;
+    
+    
+
+}
+
+ /* top layer of the website */
+.top-layer
+{
+    position: relative;
+    width: auto;
+    height: 120px;
+    background-color: #4B1D1D;
+    z-index: 1;
+}
+
+/* setting and styling logo */
+#Logo img 
+{
+    position: absolute;
+    width: 190px;
+    height: 190px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   left: 45%;
+   top: 23%;
+   background: black;
+   border-radius: 50%;
+}
+
+/* setting and styling nameplate */
+label
+{
+    position: absolute;
+    color: white;
+    left: 730px;
+    height: 0px;
+    top: 180px;
+    font-family:  cursive;
+    font-size: 1.1em;
+
+}
+
+/* setting and styling buttons */
+.buttons {
+    position: relative;
+    width: auto;
+    height: 75px;
+    font-family:  sans-serif;
+    font-size: 1.3em;
+    background-color:#4B1D1D;
+    color: white;
+    top: 540px;
+}
+
+/* Setting cake  formation */
+.cake{
+    /* position: relative; */
+    position: absolute;
+    width: 300px;
+    height: 10px;
+    left: 620px;
+    top: 310px;
+    
+}
+
+/* styling and coloring cake layers */
+.flavours{
+    left:20px;
+    position: relative;
+    height: 50px;
+    border-radius: 15%;
+    z-index: 1;
+}
+
+/* layers of each cake pieces */
+#layer1{
+    width: 245px;
+    visibility: hidden;
+}
+
+#layer2{
+    width: 200px;
+    left: 40px;
+    visibility: hidden;
+}
+
+#layer3{
+    width: 160px;
+    left: 60px;
+    visibility: hidden;
+}
+
+#layer4{
+    width: 120px;
+    left: 80px;
+    visibility: hidden;
+}
+
+#layer5{
+    width: 80px;
+    left: 100px;
+    visibility: hidden;
+}
+
+/* button styling */
+.button
+{
+    position: relative;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 45px;
+    width: 100px;
+    margin-top: 15px;
+    margin-left: 130px;
+    border-radius: 40%;
+    color: ivory;
+    background-color: lightcoral;
+
+}
+
+/* candle styling */
+#candle{
+    position: relative;
+    width: 55px;
+    height: 55px;
+    top: 15px;
+    left: 39%;
+    visibility: hidden; 
+    z-index: 1;
+}
+
+/* buybutton styling */
+#buy
+{
+    background-color: lawngreen;
+    color: black;
+}

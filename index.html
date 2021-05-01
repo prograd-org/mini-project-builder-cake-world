@@ -4,10 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Cake World</title>
+    
 </head>
 <body>
-    
+
+    <!-- Cake Logo -->
+    <div>
+        <!-- setting logo and nameplate -->
+    <div class="top-layer">
+    <div id="Logo">
+         <img src="./assets/cake.png" alt="cake">
+         <label id="nameplate">Cake World</label>
+    </div>
+    </div> 
+    <!-- border for Menulist -->
+    <div class="border">
+        <img src="./assets/list_template.png" alt="">
+     <div class="menu">
+        <h3>Prices</h3>
+        <h4>Chocolate --------- 300</h4>
+        <h4>Strawberry ------- 100</h4>
+        <h4>Butterscotch ----- 200</h4>
+        <h4>Vannila ----------- 250</h4>
+        <h4>Redvelvet -------- 350</h4>
+     </div>
+    </div>
+
+    <!-- border for Pricelist -->
+    <div class="border-2">
+        <img src="./assets/list_template.png" alt="">
+        <div class="bill">
+            <h3 id="billl">Bill</h3>
+           <h4><span id="chocolate"></span></h4>
+           <h4><span id="butterscotch"></span></h4>
+           <h4><span id="strawberry"></span></h4>
+           <h4><span id="vannila"></span></h4>
+           <h4><span id="redvelvet"></span></h4>
+           <h4><span id="total"></span></h4>
+        </div>
+    </div>
+    <!-- buttons with onclick function -->
+    <div class="buttons">
+        <input class="button" type="button" onclick="addChocolate()" id="Chocolatebtn" value="Chocolate">
+        <input class="button" type="button" onclick="addStrawberry()" id="Strawberrybtn" value="Strawberry">
+        <input class="button" type="button" onclick="addButterscotch()" id="Butterscotchbtn" value="Butterscotch">
+        <input class="button" type="button" onclick="addVannila()" id="Vanillabtn" value="Vannila">
+        <input class="button" type="button" onclick="addRedvelvet()" id="Redvelvetbtn" value="Redvelvet">
+        <input class="button" type="button" onclick="buy()" id="buy" value="BUY">
+    </div> 
+
+    <!-- setting cake layers -->
+    <div class="cake">
+        <img src="./assets/candle.png" id="candle">
+        <div class="flavours" id="layer5"></div>
+        <div class="flavours" id="layer4"></div>
+        <div class="flavours" id="layer3"></div>
+        <div class="flavours" id="layer2"></div>
+        <div class="flavours" id="layer1"></div>
+        
+        
+    </div>
+</div>
 </body>
-<script src="/script.js"></script>
+<script src="./script.js"></script>
 </html>
