@@ -15,7 +15,7 @@ var redvelvetprice = 0;
 
 
 // setting function for Chocolate button
-function addChocolate()
+document.getElementById("Chocolatebtn").onclick = function()
 {
     
    chocoprice = chocoprice+300;
