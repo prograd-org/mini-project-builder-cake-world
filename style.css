@@ -8,4 +8,205 @@
 }
 
 /* Fill your code*/
+#Header{
+    position: relative;
+    width: auto;
+    height: 100px;
+    background-color: brown;
+}
+.subheader{
+    position: relative;
+    background: black; 
+    border-radius: 50%;
+    border:5px solid brown;
+    width: 180px;
+    height: 160px;
+    left: 580px;
+    top: 5px;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+.center{
+    position: relative;
+    background-color:rgb(101, 37, 160) ;
+    width: auto;
+    height: 100%;
+}
+.pricelist img{
+    position: relative;
+    top:50px;
+    left:100px;
+}
+
+.pricelist h4, label{
+    position: relative;
+    color: white;
+    top: -200px;
+    left: 145px;
+    font-family: 'arial';
+    font-size: 1.1em;
+}
+
+.pricelist h4{
+    font-size: 1.1em;
+    left: 200px;
+}
+#candle{
+        position: relative;
+        width: 55px;
+        height: 55px;
+        top: -240px;
+        left: 112px;
+        visibility: hidden;
+        z-index: 1;
+    
+}
+.billboard{
+    position: relative;
+    top:-710px;
+    left:950px;
+}
+
+.flavourprice{
+    position: relative;
+    top:-950px;
+    left:1065px;
+    font-family: 'arial';
+    font-size: 1.1em;
+    color: white;
+}
+
+.bill{
+    position: relative;
+    left:995px;
+    font-family: 'arial';
+    font-size: 1.1em;
+    color: white;
+}
+
+
+
+#total{
+    left: 995px;
+    top: -940px;
+    font-size: 1.2em;
+}
+.footer{
+    position: inherit;
+    height: 100px;
+    width: auto;
+    background-color: brown;
+    top:-650px
+
+
+}
+
+.footer input[type = button]{
+    position: relative;
+    width: auto;
+    height: 35px;
+    font-family: 'arial';
+    font-size: 1.3em;
+    background-color:blueviolet;
+    color: white;
+    border-radius: 20%;
+    top: 30px;
+}
+
+#Chocolatebtn{
+    left: 100px;
+}
+
+#Strawberrybtn{
+    left: 200px;
+}
+
+#Butterscotchbtn{
+    left: 300px;
+} 
+
+#Vannilabtn{
+    left: 400px;
+}
+
+#Redvelvetbtn{
+    left: 500px;
+}
+
+#chocolateBill{
+    top: -950px;
+}
+
+#strawberryBill{
+    top: -950px;
+}
+
+#butterscotchBill{
+    top: -950px;
+}
+
+#vannilaBill{
+    top: -950px;
+}
+
+#redvelvetBill{
+    top: -950px;
+}
+
+#buybtn{
+    left:600px;
+    top:30px;
+    font-family: 'arial';
+    color:black;
+    background:green;
+    width: 100px;
+    height: 35px;
+    font-weight: bold;
+}
+
+.cake{
+    position: relative;
+    width: 300px;
+    height: 350px;
+    left: 525px;
+    top: -250px;
+}
+.flavours{
+    left:20px;
+    position: relative;
+    height: 40px;
+    border-radius: 15%;
+    z-index: 1;
+}
+#layer1{
+    width: 245px;
+    visibility: hidden;
+}
+
+#layer2{
+    width: 200px;
+    left: 40px;
+    visibility: hidden;
+}
+
+#layer3{
+    width: 160px;
+    left: 60px;
+    visibility: hidden;
+}
+
+#layer4{
+    width: 120px;
+    left: 80px;
+    visibility: hidden;
+}
+
+#layer5{
+    width: 80px;
+    left: 100px;
+    visibility: hidden;
+}
+
 
