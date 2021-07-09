@@ -1,11 +1,151 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
-
 *{
     margin:0;
     padding:0;
 }
+.header{
+    position:relative;
+    background: maroon;
+}
+.header-container{
+    background: repeating-linear-gradient(-45deg, grey, grey 0.1px, rgb(83, 5, 5) 2px, rgb(83, 3, 3) 40px);
+    width: auto;
+    height:15vh;
+}
+#logo{
+    width:160px;
+    height: 150px;
+    background-color:rgb(29, 28, 47);
+    transform: translate(620px);
+    border-radius: 50%;
 
-/* Fill your code*/
+}
+.bg2{
+    width: 90px;
+    height: 90px;
+    position:relative;
+    left:35px;
+    bottom:5px;
+}.shopname{
+    color:white;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    font-weight: bold;
+}
+#mid{
+    background-color: rgb(195, 139, 209);
+    height:47.5vh;
+    padding:50px;
+    padding-top: 100px;
+    display:flex;
+    justify-content: space-between;
+    
+}.bg{
+    width:240px;
+    height:210px;   
+}
+#menu-container{
+    bottom:200px;
+    left:70px;
+    position: absolute;
+    width:200px;
+    height:200px;   
+    font-family: 'Architects Daughter', cursive;
+    color:white;
+    text-align: center;
+}
+.layer{
+display:flex;
+flex-direction: column-reverse;
+align-items: center;
+justify-content: center;
+transform: translateY(-50px);
+}
+#layer1{
 
+     height:30px; border-radius:5px; 
+    width: 245px;
+    background:#FA9905 ;
+    visibility: hidden;
+}
+
+#layer2{
+    width: 200px;
+     height:30px; border-radius:5px;
+    left: 40px;
+    background-color:#FF94CC;
+    visibility: hidden;
+}
+#layer3{
+    width: 150px;
+    left: 60px;
+     height:30px; border-radius:5px;
+    background-color: #FFC93C;
+    visibility: hidden;
+}
+#layer4{
+    width: 120px;
+    left: 80px;
+     height:30px; border-radius:5px;
+    background-color: #FFFBDF;
+    visibility: hidden;
+}
+#layer5{
+    width: 80px;
+    left: 100px;
+    height:30px; border-radius:5px;
+    background-color: #F54748;
+    visibility: hidden;
+}
+#candle{
+    width:70px;
+    visibility: hidden;
+    transform: translateY(10px);
+}
+#bill-container{
+    bottom:200px;
+    right:70px;
+    position: absolute;
+    width:200px;
+    height:200px;   
+    font-family: 'Architects Daughter', cursive;
+    color:white;
+    text-align: center;
+    font-size: small;
+}
+#bill-container .items{
+    visibility: hidden;
+}
+.button-container{
+    background:rgb(83, 5, 5);
+    height:7vh;
+    display:flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+padding: 20px;
+}
+
+.btn-choco, .btn-strawberry, .btn-butterscotch, .btn-vannila, .btn-redvelvet, .btn-buy{
+    width:auto;
+    height: 30px;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px ;
+    font-family: 'Acme', sans-serif;
+    color:white;
+    background-color: rgb(171, 66, 197);
+    padding:5px;
+    cursor:pointer;
+    font-size: 20px;
+}
+.btn-buy{
+    width:50px;
+    height: 30px;
+    border-radius: 2px;
+    background-color: rgb(98, 197, 98);
+    text-align: center;
+    font-weight: bold;
+    color:black;
+}
