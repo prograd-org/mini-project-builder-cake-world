@@ -98,12 +98,6 @@ else btnVannila.classList.remove("active")
 if(state.Redvelvet) btnRedvelvet.classList.add("active")
 else btnRedvelvet.classList.remove("active")
 }
-  // state.Chocolate? btnChoco.classList.add("active") : btnChoco.classList.remove("active")
-  // state.Strawberry? btnStrawberry.classList.add("active") : btnStrawberry.classList.remove("active")
-  // state.Butterscotch? btnButterscotch.classList.add("active") : btnButterscotch.classList.remove("active")
-  // state.Vannila? btnVannila.classList.add("active") : btnVannila.classList.remove("active")
-  // state.Redvelvet? btnRedvelvet.classList.add("active") : btnRedvelvet.classList.remove("active")
-  
 function renderCakeLayerBoard(){
 if (state.Chocolate)
 document.getElementsByClassName('items')[0].style.visibility = 'visible';
@@ -136,6 +130,8 @@ document.getElementById('total').innerHTML = `Total----- ${total}`;
 }
 function renderCandle(){
   var candle = document.getElementById('candle');
+  document.querySelector(".btn-buy").onclick = function () {
+  
   if( state.Chocolate && state.Strawberry && state.Butterscotch && state.Vannila && state.Redvelvet)
     {
       candle.style.visibility = "inherit";
@@ -144,3 +140,4 @@ function renderCandle(){
     }
   
 }
+};
