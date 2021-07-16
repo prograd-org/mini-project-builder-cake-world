@@ -61,26 +61,26 @@
       redvelvet.style.visibility = "hidden";
     }
   }
-  document.querySelector(".btn-choco").onclick = function () {
+  document.querySelector(".btn-choco").addEventListener("click", function () {
     state.Chocolate = !state.Chocolate;
     renderAll();
-  };
-  document.querySelector(" .btn-strawberry").onclick = function () {
+  });
+  document.querySelector(" .btn-strawberry").addEventListener("click", function () {
     state.Strawberry= !state.Strawberry;
     renderAll();
-  };
-  document.querySelector(".btn-butterscotch").onclick = function () {
+  });
+  document.querySelector(".btn-butterscotch").addEventListener("click", function () {
     state.Butterscotch = !state.Butterscotch;
     renderAll();
-  };
-  document.querySelector(".btn-vannila").onclick = function () {
+  });
+  document.querySelector(".btn-vannila").addEventListener("click", function () {
     state.Vannila = !state.Vannila;
     renderAll();
-  };
-  document.querySelector(".btn-redvelvet").onclick = function () {
+  });
+  document.querySelector(".btn-redvelvet").addEventListener("click", function () {
     state.Redvelvet= !state.Redvelvet;
     renderAll();
-  };
+  });
   function renderButtons(){
     var btnChoco = document.querySelector('.btn-choco');
     var btnStrawberry = document.querySelector('.btn-strawberry');
@@ -136,7 +136,7 @@
   }
   function renderCandle(){
     var candle = document.getElementById('candle');
-    document.querySelector(".btn-buy").onclick = function () {
+    document.querySelector(".btn-buy").addEventListener("click",function () {
     
     if( state.Chocolate && state.Strawberry && state.Butterscotch && state.Vannila && state.Redvelvet)
       {
@@ -145,5 +145,5 @@
         candle.style.visibility = "none";
       }
     
-  };
+  });
   }
