@@ -130,7 +130,7 @@ padding: 20px;
 
 .btn-choco, .btn-strawberry, .btn-butterscotch, .btn-vannila, .btn-redvelvet, .btn-buy{
     width:auto;
-    height: 30px;
+    height: 50px;
     border-top-left-radius: 10px ;
     border-top-right-radius: 10px ;
     font-family: 'Acme', sans-serif;
@@ -141,8 +141,8 @@ padding: 20px;
     font-size: 20px;
 }
 .btn-buy{
-    width:50px;
-    height: 30px;
+    width:60px;
+    height: 50px;
     border-radius: 2px;
     background-color: rgb(98, 197, 98);
     text-align: center;
