@@ -2,10 +2,174 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-/* Fill your code*/
+body {
+    background: black;
+}
 
+.container {
+    border: 1px solid black;
+    height: 99.6vh;
+    background: #4b1d1d;
+    opacity: 0;
+}
+
+.main {
+    position: relative;
+    height: 66vh;
+    border: aliceblue;
+    background: rgb(157, 97, 185);
+    top: 13%;
+    display: flex;
+    flex-direction: row;
+    opacity: 0;
+}
+
+.lines {
+    display: flex;
+    opacity: 0;
+}
+
+hr {
+    transform: rotate(317deg);
+    position: relative;
+    width: 10%;
+    left: -2%;
+    top: 53px;
+}
+
+.flavors {
+    position: absolute;
+    height: 19vh;
+    width: 99.5vw;
+    bottom: 1%;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    opacity: 0;
+}
+
+.flavors button {
+    height: 37px;
+    padding: 0 10px;
+    font-family: acme;
+    font-size: 23px;
+    border-radius: 20%;
+    background: #9d61b9;
+    color: white;
+    transition: .3s ease-in-out;
+}
+
+.flavors button.buy {
+    background: #7bff00;
+    border-radius: 10px;
+    color: black;
+}
+
+.logo {
+    height: 25vh;
+    position: absolute;
+    border: 6px solid #4b1d1d;
+    width: 16vw;
+    border-radius: 50%;
+    z-index: 1;
+    left: 43%;
+    background: #0a0909;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo h1 {
+    color: white;
+    font-family: Satisfy;
+}
+
+:is(.prices, .bill) {
+    width: 30vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cake {
+    height: 100%;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.template {
+    height: 70%;
+    width: 75%;
+    background: url(./assets/list_template.png);
+    background-size: cover;
+    font-family: 'Architects Daughter';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.layer {
+    height: 40px;
+    border-radius: 25%;
+}
+
+.candles {
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    top: 3%;
+}
+
+.candles img {
+    height: 30%;
+}
+
+#candle {
+    opacity: 0;
+}
+
+#i {
+    width: 80px;
+    display: none;
+}
+
+#ii {
+    width: 120px;
+    display: none;
+}
+
+#iii {
+    width: 160px;
+    display: none;
+}
+
+#iv {
+    width: 200px;
+    display: none;
+}
+
+#v {
+    width: 245px;
+    display: none;
+}
+
+#total {
+    margin-top: 20px;
+}
+
+.flavors button.active {
+    height: 77px;
+}
