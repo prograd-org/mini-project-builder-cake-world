@@ -1,13 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Cake World</title>
 </head>
+
 <body>
-    
+    <div class="container">
+        <div class="lines">
+            <hr>
+            <hr>
+            <hr>
+            <hr>
+            <hr>
+            <hr>
+            <hr>
+            <hr>
+            <hr>
+            <hr>
+            <hr>
+            <hr>
+            <hr>
+        </div>
+        <div class="logo">
+            <img src="./assets/cake.png" alt="">
+            <h1>Cake World</h1>
+        </div>
+        <div class="flavors">
+            <button onclick="flavor('chocolate')" id="btn1">Chocolate</button>
+            <button onclick="flavor('Strawberry')" id="btn2">Strawberry</button>
+            <button onclick="flavor('Butterscotch')" id="btn3">Butterscotch</button>
+            <button onclick="flavor('Vanilla')" id="btn4">Vanilla</button>
+            <button onclick="flavor('Redvelvet')" id="btn5">Redvelvet</button>
+            <button class="buy" onclick="buy()">BUY</button>
+        </div>
+        <div class="main">
+            <div class="prices">
+                <div class="template">
+                    <h1>Prices</h1>
+                    <h3>Chocolate --------------- 300</h3>
+                    <h3>Strawberry ------------- 100</h3>
+                    <h3>Butterscotch --------- 200</h3>
+                    <h3>Vanilla --------------------- 250</h3>
+                    <h3>Redvelvet ---------------- 350</h3>
+                </div>
+            </div>
+            <div class="cake">
+                <div class="candles"><img id="candle" src="./assets/candle.png" alt=""></div>
+                <div class="layer" id="i"></div>
+                <div class="layer" id="ii"></div>
+                <div class="layer" id="iii"></div>
+                <div class="layer" id="iv"></div>
+                <div class="layer" id="v"></div>
+            </div>
+            <div class="bill">
+                <div class="template">
+                    <h1 id="bill">Bill</h1>
+                    <div id="bills">
+
+                    </div>
+                    <h2 id="total"></h2>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+<script src="anime.min.js"></script>
 <script src="/script.js"></script>
+
 </html>
