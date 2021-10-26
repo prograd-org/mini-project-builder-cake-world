@@ -4,10 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Cake-World</title>
 </head>
 <body>
-    
+    <div>
+        <div class="header">
+            <div class="heading">
+                <img src="assets/cake.png">
+                <label>CAKE WORLD</label>
+            </div>
+        </div>
+        <div class="price-container">
+            <div class="price">
+                <img src="assets/list_template.png"><br>
+                <h4>PRICES</h4>
+                <label id="p1">Chocolate --------- 300</label><br>
+                <label id="p2">Strawberry ------- 100</label><br>
+                <label id="p3">Butterscotch ----- 200</label><br>
+                <label id="p4">Vannila ------------ 250</label><br>
+                <label id="p5">Redvelvet --------- 350</label> 
+            </div>
+            <div class="cake">
+                <div class="cake-layer" id="cake-l5"></div>
+                <div class="cake-layer" id="cake-l4"></div>
+                <div class="cake-layer" id="cake-l3"></div>
+                <div class="cake-layer" id="cake-l2"></div>
+                <div class="cake-layer" id="cake-l1"></div>
+                <img src="assets/candle.png" id="candle">
+            </div>
+            <div id="billGeneration">
+                <img src="assets/list_template.png" class="billTemplate"><br>
+                <h4 class="flavourPrice">BILL</h4><br>
+                <div class="bill" id="b1"></div>
+                <div class="bill" id="b2"></div>
+                <div class="bill" id="b3"></div>
+                <div class="bill" id="b4"></div>
+                <div class="bill" id="b5"></div>
+                <div class="bill" id="total"></div>
+            </div>
+        </div>
+        <div class="footer">
+            <input type="button" onclick="addChocolate()" id="Chocolate-button" value="Chocolate">
+            <input type="button" onclick="addStrawberry()" id="Strawberry-button" value="Strawberry">
+            <input type="button" onclick="addButterscotch()" id="Butterscotch-button" value="Butterscotch">
+            <input type="button" onclick="addVannila()" id="Vannila-button" value="Vannila">
+            <input type="button" onclick="addRedvelvet()" id="Redvelvet-button" value="Redvelvet">
+            <input type="button" onclick="buy()" id="buy-button" value="BUY">
+        </div> 
+    </div>
 </body>
-<script src="/script.js"></script>
+<script src="script.js" ></script>
 </html>
