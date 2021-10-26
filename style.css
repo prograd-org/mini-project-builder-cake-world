@@ -1,11 +1,182 @@
-@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
-
-*{
-    margin:0;
-    padding:0;
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+.header{
+    position: relative;
+    width: auto;
+    height: 120px;
+    background-color: #4B1D1D;
+}
+.heading{
+    position: relative;
+    width: 170px;
+    height: 170px;
+    left: 680px;
+    top: 25px;
+    background: black;
+    z-index: 1;
+    border-radius: 70%;
+}
+.heading label{
+    position: relative;
+    left: 30px;
+    top: -10px;
+    color: white;
+    font-size: 1.2em;
+    font-family: 'Acme', cursive;
+}
+.price-container{
+    position: relative;
+    width: 1480px;
+    height: 670px;
+    background-color: blueviolet;
+}
+.price img{
+    position: relative;
+    top:175px;
+    left:100px;
+}
+.price h4, label{
+    position: relative;
+    color: white;
+    left: 145px;
+    top: -100px;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1.1em;
+}
+.price h4{
+    font-size: 1.3em;
+    left: 200px;
+}
+.cake{
+    position: relative;
+    width: 300px;
+    height: 350px;
+    left: 620px;
+    top: -300px;
+}
+.cake-layer{
+    left:20px;
+    position: relative;
+    height: 50px;
+    border-radius: 15%;
+    z-index: 1;
+}
+#cake-l1{
+    width: 245px;
+    visibility: hidden;
+}
+#cake-l2{
+    width: 200px;
+    left: 40px;
+    visibility: hidden;
+}
+#cake-l3{
+    width: 160px;
+    left: 60px;
+    visibility: hidden;
+}
+#cake-l4{
+    width: 120px;
+    left: 80px;
+    visibility: hidden;
+}
+#cake-l5{
+    width: 80px;
+    left: 100px;
+    visibility: hidden;
+}
+#candle{
+    position: relative;
+    width: 55px;
+    height: 55px;
+    top: -290px;
+    left: 112px;
+    visibility: hidden;
+    z-index: 1;
 }
 
-/* Fill your code*/
-
+.billTemplate{
+    position: relative;
+    top:-660px;
+    left:1100px;
+}
+.flavourPrice{
+    position: relative;
+    top:-930px;
+    left:1215px;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1.1em;
+    color: white;
+}
+.bill{
+    position: relative;
+    left:1145px;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1.1em;
+    color: white;
+}
+#b1{
+    top: -940px;
+}
+#b2{
+    top: -940px;
+}
+#b3{
+    top: -940px;
+}
+#b4{
+    top: -940px;
+}
+#b5{
+    top: -940px;
+}
+#total{
+    left: 1160px;
+    top: -930px;
+    font-size: 1.2em;
+}
+.footer{
+    position: relative;
+    height: 230px;
+    width: auto;
+    background-color: #4B1D1D;
+}
+.footer input[type = button]{
+    position: relative;
+    width: auto;
+    height: 35px;
+    font-family: 'Acme', sans-serif;
+    font-size: 1.3em;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 15%;
+    top: 60px;
+}
+#Chocolate-button{
+    left: 80px;
+}
+#Strawberry-button{
+    left: 229px;
+}
+#Butterscotch-button{
+    left: 378px;
+} 
+#Vannila-button{
+    left: 527px;
+}
+#Redvelvet-button{
+    left: 676px;
+}
+#buy-button{
+    left: 785px;
+    /* top:150px; */
+    font-family: 'Acme', cursive;
+    font-weight: bold;
+    background: rgb(123, 255, 0);
+    width: 100px;
+    height: 35px;
+    color: black;
+}
