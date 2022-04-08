@@ -140,3 +140,4 @@ document.querySelector(".btn-buy").onclick = function () {
     document.getElementById('item6').innerHTML="Total -------------------------- "+total;
     document.getElementById('candle').style.display="block";
 };
+ 
