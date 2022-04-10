@@ -1,13 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <div class="icon">
+        <img src="assets/cake.png" alt="Cake Icon" />
+        <di class="icon-text">Cake World
+    </div>
+    </div>
+    <div class="container">
+        <div class="header">
+        </div>
+        <div class="content">
+            <div class="list-box">
+                <img src="assets/list_template.png" alt="" class="list-img">
+                <center>
+                    <div class="list-content">
+                        <center class="list-heading">
+                            <h4>
+                                Prices
+                            </h4>
+                        </center>
+                        <ul class="list" id="price-list">
+                            <li id="chocolate">Chocolate ................... 300</li>
+                            <li id="strawberry">Strawberry ................. 100</li>
+                            <li id="butterscotch">Butterscotch ............... 200</li>
+                            <li id="vannila">Vannila ....................... 250</li>
+                            <li id="redvelvet">Redvelvet ................... 350</li>
+                        </ul>
+                    </div>
+                </center>
+            </div>
+            <div class="cake">
+                <img src="assets/candle.png" alt="" class="candles">
+                <div class="layer5 layer"></div>
+                <div class="layer4 layer"></div>
+                <div class="layer3 layer"></div>
+                <div class="layer2 layer"></div>
+                <div class="layer1 layer"></div>
+            </div>
+            <div class="list-box">
+                <img src="assets/list_template.png" alt="" class="list-img">
+                <center>
+                    <div class="list-content">
+                        <center class="list-heading">
+                            <h4>
+                                Bill
+                            </h4>
+                        </center>
+                        <ul class="list bill-list" id="bill-list">
+                        </ul>
+                        <center class="total">
+                            <h4>
+                                Total .................. <span id="total">0</span>
+                            </h4>
+                        </center>
+                    </div>
+                </center>
+            </div>
+        </div>
+        <div class="footer">
+            <button class="btn" onclick="onChocolate()">Chocolate</button>
+            <button class="btn" onclick="onStrawberry()">Strawberry</button>
+            <button class="btn" onclick="onButter()">Butterscotch</button>
+            <button class="btn" onclick="onVannila()">Vannila</button>
+            <button class="btn" onclick="onRed()">Redvelvet</button>
+            <button class="btn buy" onclick="onBuy()">Buy</button>
+        </div>
+    </div>
 </body>
 <script src="/script.js"></script>
+
 </html>
