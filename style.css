@@ -5,7 +5,118 @@
 *{
     margin:0;
     padding:0;
+    color:white;
 }
 
 /* Fill your code*/
-
+.icon{
+    background-color: black;
+    width: 225px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50%;
+    padding-bottom: 15px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 4%);
+}
+.container{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+}
+.header{
+    background-color: hsl(16, 60%, 17%);
+    height: 10%;
+    background-image: repeating-linear-gradient(-30deg, hsl(16, 60%, 17%), hsl(16, 60%, 17%) 40px, gray 40px, gray 42px);
+}
+.content{
+    background-color: #86319b;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+.footer{
+    background-color: hsl(16, 60%, 17%);
+    height: 15%;    
+}
+.list{
+    list-style: none;
+    height: 85%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.list-heading{
+    height: 15%;
+    font-size: 125%;
+}
+.list-img{
+    margin-bottom: -90%;
+}
+.list-box{
+    height: 300px;
+}
+.list-content{
+    height: 200px;
+    width: 70%;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.btn{
+    background-color: #86319b;
+    border-radius: 7px;
+    font-size: 125%;
+    padding:3px 10px;
+}
+.buy{
+    background-color: green;
+    font-size: 175%;
+}
+.bill-list{
+    height: 70%;
+}
+.total{
+    height: 15%;
+    font-size: 125%;
+    padding-top: 10px;
+    visibility: hidden;
+}
+.cake{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.layer{
+    background-color:white;
+    width: 230px;
+    height:40px;
+    border-radius: 15px;
+    visibility: hidden;
+}
+.layer2{
+    width: 200px;
+}
+.layer3{
+    width: 170px;
+}
+.layer4{
+    width: 140px;
+}
+.layer5{
+    width: 110px;
+}
+.candles{
+    width: 100px;
+    margin-bottom: -20px;
+    visibility: hidden;
+}
